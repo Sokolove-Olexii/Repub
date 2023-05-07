@@ -1,0 +1,142 @@
+p, h2, ul{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+img,button{
+    display: block;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    outline: 2px solid black;
+}
+
+.paragraph{
+    color: #B4AD9E;
+}
+
+.text{
+    color: #626262;
+}
+
+h2 {
+    color: #626262;
+    font-size: 30px;
+}
+
+.lifestyle{
+    color: #03A9F4;
+    font-size: 14px;
+}
+
+.photodiary{
+    color: #7D7D7D;
+    font-size: 14px;
+}
+
+.music{
+    color: #7D7D7D;
+    font-size: 14px;
+}
+
+.travel{
+    color: #7D7D7D;
+    font-size: 14px;
+}
+
+.button{
+    width: 165px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 555px;
+}
+
+.nav-menu{
+    padding: 71px 0 92px 0;
+}
+
+.nav-list-link{
+    color: #7d7d7d;
+}
+
+.nav-list-link:hover, .nav-list-link:focus{
+color: #03A9F4;
+}
+
+/* main */
+.main-content {
+    padding-bottom: 66px;
+}
+
+.main-list{
+    display: flex;
+    width: 906px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.main-list-item:not(:nth-child(n+5)){
+    margin-bottom: 130px;
+    width: 420px;
+}
+.main-list-img{
+    width: 419px;
+    height: 280px;
+    margin-bottom: 62px;
+}
+
+.main-list-subtitle{
+    margin-bottom: 32px;
+
+}
+
+.main-list-title{
+    margin-bottom: 40px;
+    color: #626262;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-list-subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    color: #B4AD9E;
+}
+.text{
+    width: 420px;
+}
+.button{
+    font-family: 'Playfair Display';
+    margin: 90px auto;
+    border: 1px solid #626262;
+    color: #626262;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+width: 165px;
+height: 60px;
+line-height: 1.35;
+}
